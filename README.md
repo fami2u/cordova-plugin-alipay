@@ -19,6 +19,5 @@
 
 ## 协议
 
-MIT
-
+[MIT](http://opensource.org/licenses/MIT)
 
