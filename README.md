@@ -12,6 +12,8 @@
 ##测试
 * create cordova proj by `cordova create fami-plugin-tests`
 * enter test dir by `cd fami-plugin-tests`
+* add platform for android by cordova platform add android
+* add platform for ios by cordova platform add ios
 * add plugin `cordova plugin add ../cordova-plugin-alipay`
 
 ## 贡献者
