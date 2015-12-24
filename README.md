@@ -1,20 +1,17 @@
 # cordova-plugin-alipay
-  支付宝cordova插件
+  cordova支付宝支付插件
 
-## 协作开发
-1. 点击右上角 `fork` 按钮,fork项目到自己的repos.
-2. 运行`git clone 自己repo的url` 把自己repo中的 `cordova-plugin-alipay` 项目clone到本地,例如: `git  clone git@github.com:用户名/cordova-plugin-alipay.git`
-3. 运行`git branch 分支名`创建自己的分支
-4. 运行 `git checkout 分支名` 切换到自己的分支
-5. 添加或修改完程序,运行 `git add .` -> `git commit -m "提交的注释"` -> ``git push origin 第三步创建的分支名`
-6. 当完成某一个功能后，在自己的项目下，点击`new pull request`，发起合并代码到项目主干的请求。
+##使用
+* 创建cordova项目 `cordova create fami-plugin-tests`
+* 进入cordova项目目录  `cd fami-plugin-tests`
+* 给项目添加android平台支持  `cordova platform add android`
+* 给项目添加ios平台支持  `cordova platform add ios`
+* 添加插件 `cordova plugin add ../cordova-plugin-alipay`
+* 具体参见 [`fami2u:cordova-plugin-tests`](https://github.com/fami2u/cordova-plugin-tests)
 
-##测试
-* create cordova proj by `cordova create fami-plugin-tests`
-* enter test dir by `cd fami-plugin-tests`
-* add platform for `android by cordova platform add android`
-* add platform for ios by `cordova platform add ios`
-* add plugin `cordova plugin add ../cordova-plugin-alipay`
+## Todo
+- [ ] 支付宝 支付
+- [ ] 支付扫码支付
 
 ## 贡献者
 [贡献者](https://github.com/fami2u/cordova-plugin-alipay/graphs/contributors)
