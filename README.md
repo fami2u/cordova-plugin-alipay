@@ -9,6 +9,11 @@
 5. 添加或修改完程序,运行 `git add .` -> `git commit -m "提交的注释"` -> ``git push origin 第三步创建的分支名`
 6. 当完成某一个功能后，在自己的项目下，点击`new pull request`，发起合并代码到项目主干的请求。
 
+##测试
+* create cordova proj by `cordova create fami-plugin-tests`
+* enter test dir by `cd fami-plugin-tests`
+* add plugin `cordova plugin add ../cordova-plugin-alipay`
+
 ## 贡献者
 [贡献者](https://github.com/fami2u/cordova-plugin-alipay/graphs/contributors)
 
