@@ -26,14 +26,14 @@ Alipay.pay(
                 alert(errorMsg);
   });
   ```
-## 依赖
 
 ##appScheme 解决方案
 
 参照：https://github.com/EddyVerbruggen/Custom-URL-scheme
 
 `cordova plugin add https://github.com/EddyVerbruggen/LaunchMyApp-PhoneGap-Plugin.git --variable URL_SCHEME=appScheme`
-
+##Tests
+参照：[fami-plugin-lists](https://github.com/fami2u/fami-plugin-lists)
 ## Developer Resources
 - [cordova插件开发规范](http://cordova.apache.org/docs/en/latest/guide/hybrid/plugins/index.html)
 - [支付宝sdk](https://openhome.alipay.com/doc/docIndex.htm?url=https://openhome.alipay.com/doc/viewKbDoc.htm?key=236698_261849&type=info)
