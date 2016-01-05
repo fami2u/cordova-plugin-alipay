@@ -3,9 +3,9 @@
 
 ## 贡献者
 [贡献者](https://github.com/fami2u/cordova-plugin-alipay/graphs/contributors)
-- [@qintengfei]集成及js部分
-- [@lirubing]ios部分
-- [@suiyueanhao]Android部分
+- [@qintengfei]()集成及js部分
+- [@lirubing]()ios部分
+- [@suiyueanhao]()Android部分
 
 ## Usage
 
@@ -16,8 +16,8 @@ Alipay.pay(
                 subject: "测试标题",
                 body: "我是测试内容",
                 price: 0.02,
-                notifyUrl: "",
-                appScheme:'weixin'
+                notifyUrl: "notifyUrl",
+                appScheme:'appScheme'
             },
             function(errorMsg) {
                 alert(errorMsg);
@@ -26,6 +26,13 @@ Alipay.pay(
                 alert(errorMsg);
   });
   ```
+## 依赖
+
+##appScheme 解决方案
+
+参照：https://github.com/EddyVerbruggen/Custom-URL-scheme
+
+`cordova plugin add https://github.com/EddyVerbruggen/LaunchMyApp-PhoneGap-Plugin.git --variable URL_SCHEME=appScheme`
 
 ## Developer Resources
 - [cordova插件开发规范](http://cordova.apache.org/docs/en/latest/guide/hybrid/plugins/index.html)
