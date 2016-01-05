@@ -1,5 +1,5 @@
-var exec = require('cordova/exec');
-
-exports.pay = function(arg0, success, error) {
-    exec(success, error, "alipay", "pay", [arg0]);
+module.exports = {
+    pay: function (paymentInfo, successCallback, errorCallback) {
+        cordova.exec(successCallback, errorCallback, "Alipay", "pay", [paymentInfo]);
+    }
 };
