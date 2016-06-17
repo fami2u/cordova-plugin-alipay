@@ -43,3 +43,4 @@ Alipay.pay(
 
 [MIT](http://opensource.org/licenses/MIT)
 
+关于fami更多插件：http://fami2u.com/
