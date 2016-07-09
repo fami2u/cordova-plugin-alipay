@@ -10,7 +10,7 @@
 ## Usage
 
 ```
-Alipay.pay(
+alipay.pay(
         {
                 tradeNo: "145188769195998",
                 subject: "测试标题",
